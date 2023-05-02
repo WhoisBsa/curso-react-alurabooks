@@ -110,6 +110,17 @@ const BarraNavegacao = () => {
                     </li>
                 </>
             }
+            <li>
+                <BotaoNavegacao texto="Login" textoAltSrc="Icone representando um usuário" imagemSrc={usuario} />
+            </li>
+            <li>
+                <BotaoNavegacao
+                    texto="Cadastrar-se"
+                    textoAltSrc="Icone representando um usuário"
+                    imagemSrc={usuario}
+                />
+                {/* <ModalCadastroUsuario /> */}
+            </li>
         </ul>
     </nav>)
 }
